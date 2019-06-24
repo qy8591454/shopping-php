@@ -1,3 +1,10 @@
 <?php
-echo "123";
-?>
+namespace app\admin\controller;
+
+class Index
+{
+    public function index()
+    {
+        echo "123";
+    }
+}
